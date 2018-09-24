@@ -1,0 +1,101 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css");
+@import url("https://fonts.googleapis.com/css?family=Oswald|Advent+Pro");
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+body {
+  background-color: silver;
+  background-image: url("img/skyline.svg"), url("img/spotlightlgo.svg"), url("img/graphy.png");
+  background-attachment: fixed;
+  background-position: bottom left, 10px 70px, top left;
+  background-repeat: repeat-x, no-repeat, repeat; }
+
+header h1 {
+  padding-top: 1.5rem;
+  padding-left: 3rem;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase; }
+
+header h1 a {
+  color: black; }
+
+nav {
+  text-transform: uppercase; }
+
+nav ul li a {
+  color: #ffd600; }
+
+main {
+  position: absolute;
+  right: 0;
+  max-width: 50%;
+  margin-top: 100px; }
+
+.indexcard {
+  display: flex;
+  flex-flow: wrap;
+  flex-basis: 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 3em;
+  padding: 3rem;
+  padding-top: 0;
+  list-style-type: none; }
+
+.indexcard li {
+  position: relative;
+  margin: 2px;
+  background-color: whitesmoke;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+.indexcard li:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
+.name {
+  display: block;
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  max-width: 250px;
+  padding: 6px;
+  font-size: 120%;
+  font-weight: bold;
+  word-wrap: break-word;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  transform: rotate(-5deg); }
+
+ul.name li:nth-child(even) a, ul.indexcard li:nth-child(even) {
+  transform: rotate(2deg); }
+
+ul.indexcard li:nth-child(odd) {
+  transform: rotate(-1deg); }
+
+ul.name li:nth-child(3n) a, ul.indexcard li:nth-child(3n) {
+  transform: none;
+  position: relative;
+  top: -5px; }
+
+ul.name li:nth-child(5n) a, ul.indexcard li:nth-child(5n) {
+  transform: rotate(5deg);
+  position: relative;
+  right: 5px; }
+
+ul.name li:nth-child(8n) a, ul.indexcard li:nth-child(8n) {
+  position: relative;
+  top: 8px;
+  right: 5px; }
+
+ul.name li:nth-child(11n) a, ul.indexcard li:nth-child(11n) {
+  position: relative;
+  top: 3px;
+  left: -5px; }
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  position: absolute; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {%- include head.html -%}
+  <body>
+    {%- include header.html -%}
+
+  <ul>
+    {% for creation in site.creations %}
+    <li>
+      <a href="{{ creation.url }}">
+        {{ creation.project }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+
+    {{ content }}
+  </body>
+</html>
