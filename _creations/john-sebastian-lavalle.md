@@ -1,4 +1,5 @@
 ---
 layout: page
-project: Jogn Sebastian LaValle
+project: John Sebastian LaValle
+thumb: /assets/thumbs/jslvscreen.png
 ---

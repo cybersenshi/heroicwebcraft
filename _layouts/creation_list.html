@@ -8,7 +8,8 @@
     {% for creation in site.creations %}
     <li>
       <a href="{{ creation.url }}">
-        {{ creation.project }}
+        <img src="{{ creation.thumb }}" alt="">
+          {{ creation.project }}
       </a>
     </li>
     {% endfor %}
