@@ -1,6 +1,6 @@
 ---
 layout: page
-project: Professor Shyguy
+title: Professor Shyguy
 thumb: /assets/thumbs/shyguyscreen.png
 ---
 Professor Shyguy

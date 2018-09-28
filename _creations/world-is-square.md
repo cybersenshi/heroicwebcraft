@@ -1,8 +1,7 @@
 ---
+title: The World is Square
 layout: page
-project: The World is Square
-thumb: /assets/thumbs/squares.png
+thumb: "/assets/thumbs/squares.png"
 ---
-The World is Square
 
-Test data?
+![](/assets/screens/squares.png)
