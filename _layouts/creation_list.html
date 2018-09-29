@@ -3,17 +3,20 @@
   {%- include head.html -%}
   <body>
     {%- include header.html -%}
-
-  <ul>
+<main>
+  <ul class="gallery indexcard">
     {% for creation in site.creations %}
     <li>
       <a href="{{ creation.url }}">
         <img src="{{ creation.thumb }}" alt="">
-          {{ creation.title }}
+          <span class="name">
+            {{ creation.title }}
+          </span>
       </a>
     </li>
     {% endfor %}
   </ul>
+</main>
 
     {{ content }}
   </body>
