@@ -1,5 +1,5 @@
 ---
 layout: page
 title: Sacramento Control Systems
-thumb: /assets/thumbs/scsscreen2.png
+image: /assets/screens/scsscreen2.png
 ---

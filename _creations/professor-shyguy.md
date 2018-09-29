@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Professor Shyguy
-thumb: /assets/thumbs/shyguyscreen.png
+image: /assets/screens/shyguyscreen.png
 ---
 Professor Shyguy
 

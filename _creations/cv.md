@@ -1,5 +1,7 @@
 ---
 layout: page
 title: Lisa Hartsock - CV
-thumb: /assets/thumbs/cv.png
+image: /assets/screens/cv.png
 ---
+
+Test data

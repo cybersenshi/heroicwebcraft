@@ -1,101 +1,53 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css");
-@import url("https://fonts.googleapis.com/css?family=Oswald|Advent+Pro");
-@import url("https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
-body {
-  background-color: silver;
-  background-image: url("img/skyline.svg"), url("img/spotlightlgo.svg"), url("img/graphy.png");
-  background-attachment: fixed;
-  background-position: bottom left, 10px 70px, top left;
-  background-repeat: repeat-x, no-repeat, repeat; }
+/*
+Error: File to import not found or unreadable: ('assets/fonts/lorimer.css').
+        on line 3 of /Users/chaney/github/heroicwebcraft/assets/main.sass
 
-header h1 {
-  padding-top: 1.5rem;
-  padding-left: 3rem;
-  font-family: Oswald, sans-serif;
-  text-transform: uppercase; }
+1: @import url('https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css')
+2: @import url('https://fonts.googleapis.com/css?family=Oswald|Advent+Pro')
+3: @import ('assets/fonts/lorimer.css')
+4: @import url('https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css')
+5: 
+6: $silver: #c0c0c0
+7: $black: #000
+8: $gold: #ffd600
 
-header h1 a {
-  color: black; }
-
-nav {
-  text-transform: uppercase; }
-
-nav ul li a {
-  color: #ffd600; }
-
-main {
-  position: absolute;
-  right: 0;
-  max-width: 50%;
-  margin-top: 100px; }
-
-.indexcard {
-  display: flex;
-  flex-flow: wrap;
-  flex-basis: 100%;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  margin-top: 3em;
-  padding: 3rem;
-  padding-top: 0;
-  list-style-type: none; }
-
-.indexcard li {
-  position: relative;
-  margin: 2px;
-  background-color: whitesmoke;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
-
-.indexcard li:hover {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
-
-.name {
-  display: block;
-  position: absolute;
-  left: 5px;
-  bottom: 5px;
-  max-width: 250px;
-  padding: 6px;
-  font-size: 120%;
-  font-weight: bold;
-  word-wrap: break-word;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 6px;
-  transform: rotate(-5deg); }
-
-ul.name li:nth-child(even) a, ul.indexcard li:nth-child(even) {
-  transform: rotate(2deg); }
-
-ul.indexcard li:nth-child(odd) {
-  transform: rotate(-1deg); }
-
-ul.name li:nth-child(3n) a, ul.indexcard li:nth-child(3n) {
-  transform: none;
-  position: relative;
-  top: -5px; }
-
-ul.name li:nth-child(5n) a, ul.indexcard li:nth-child(5n) {
-  transform: rotate(5deg);
-  position: relative;
-  right: 5px; }
-
-ul.name li:nth-child(8n) a, ul.indexcard li:nth-child(8n) {
-  position: relative;
-  top: 8px;
-  right: 5px; }
-
-ul.name li:nth-child(11n) a, ul.indexcard li:nth-child(11n) {
-  position: relative;
-  top: 3px;
-  left: -5px; }
-
-.screen-reader-text {
-  clip: rect(1px, 1px, 1px, 1px);
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  position: absolute; }
-
-/*# sourceMappingURL=main.css.map */
+Backtrace:
+/Users/chaney/github/heroicwebcraft/assets/main.sass:3
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/tree/import_node.rb:45:in `import'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/tree/visitors/perform.rb:310:in `visit_import'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/stack.rb:79:in `block in with_base'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/stack.rb:135:in `with_frame'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/stack.rb:79:in `with_base'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/exec/sass_scss.rb:387:in `run'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/exec/base.rb:50:in `parse'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/lib/sass/exec/base.rb:18:in `parse!'
+/Users/chaney/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.6.0/bin/sass:13:in `<top (required)>'
+/Users/chaney/.rbenv/versions/2.2.3/bin/sass:23:in `load'
+/Users/chaney/.rbenv/versions/2.2.3/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: ('assets/fonts/lorimer.css').\A         on line 3 of /Users/chaney/github/heroicwebcraft/assets/main.sass\A \A 1: @import url('https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css')\A 2: @import url('https://fonts.googleapis.com/css?family=Oswald|Advent+Pro')\A 3: @import ('assets/fonts/lorimer.css')\A 4: @import url('https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css')\A 5: \A 6: $silver: #c0c0c0\A 7: $black: #000\A 8: $gold: #ffd600"; }

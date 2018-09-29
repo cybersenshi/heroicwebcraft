@@ -1,7 +1,7 @@
 ---
+layout: page
 title: Tri Angles
-
-thumb: /assets/thumbs/triangles.png
+image: /assets/screens/triangles.png
 ---
 
 Test data.

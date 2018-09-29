@@ -1,5 +1,5 @@
 ---
 layout: page
 title: Nerdy.fm
-thumb: /assets/thumbs/nfmscreen.png
+image: /assets/screens/nfmscreen.png
 ---

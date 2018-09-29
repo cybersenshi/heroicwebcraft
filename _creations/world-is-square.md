@@ -1,7 +1,5 @@
 ---
-title: The World is Square
 layout: page
-thumb: "/assets/thumbs/squares.png"
+title: The World is Square
+image: "/assets/screens/squares.png"
 ---
-
-![](/assets/screens/squares.png)
